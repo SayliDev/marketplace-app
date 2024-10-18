@@ -1,8 +1,6 @@
-# Local Products Marketplace Backend
+# Local Products Marketplace 
 
 ## Overview
-This repository contains the backend code for the local products marketplace. It provides the core functionality, including user management, product catalog, order processing, and payment integration.
-
 Welcome to the local products and short supply chains marketplace project! This platform aims to connect local producers with consumers by providing a simple and efficient solution to discover and purchase quality products, while supporting the local economy and reducing your environmental footprint.
 
 ## Context
@@ -20,22 +18,35 @@ Producer interface: Provide producers with a clear dashboard to manage their bus
 Analytical tools: Allow consumers to assess the environmental impact of their purchases.
 
 ## Technologies
-* **Java**
-* **Spring Boot**
-* **PostgreSQL**
-* **Stripe** (for payments)
+**Frontend**
+* React
+* [CSS framework or styling solution]
+* [State management library]
 
-## Features
+**Backend**
+* Java
+* Spring Boot
+* PostgreSQL
+* Stripe (for payments)
+
+## Features FrontEnd
+* **Product browsing:** Search and filter products based on various criteria.
+* **Product details:** Detailed product information
+* **Shopping cart:** Add items to the cart, view cart contents, and proceed to checkout.
+* **User profile:** Manage account information, view order history.
+  
+## Features BackEnd
 * **User management:** User registration, authentication, and authorization.
 * **Product management:** CRUD operations for products, including categories and attributes.
 * **Order management:** Creation, processing, and tracking of orders.
 * **Payment processing:** Integration with Stripe for secure payments.
 * **Admin panel:** For managing the platform, including product moderation and user management.
 
-## Set up environment : 
+## Setup environment : 
 - Install Java and Gradle
 - Create a PostgreSQL database and configure the connection details in application.properties.
 - Create a Stripe account and obtain your API keys.
+
 
 ## Build the application:
 
